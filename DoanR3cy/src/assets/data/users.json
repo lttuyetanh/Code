@@ -1,0 +1,52 @@
+[
+    {
+        "userid": 1,
+        "tendangnhap": "danglenhuquynh",
+        "hovaten": "Đặng Lê Như Quỳnh",
+        "email": "quynhdln21411@st.uel.edu.vn",
+        "sdt": "0123456789",
+        "gioitinh": "Nữ",
+        "ngaysinh": "18/4/2003",
+        "hinhdaidien": "",
+        "matkhau": "aaaaaaaa1@A",
+        "diachi": [{
+            "tendiachi": "KTX ĐHQG.HCM KHU B, HCM"
+        }, {
+            "tendiachi": "184 Phan Văn Trị, HCM"
+        }]
+            
+            
+
+    },
+    {
+        "userid": 2,
+        "tendangnhap": "dangtruc",
+        "hovaten": "Đặng Thị Thanh Trúc",
+        "email": "trucdtt21411@st.uel.edu.vn",
+        "sdt": "0123456798",
+        "gioitinh": "Nữ",
+        "ngaysinh": "25/09/2001",
+        "hinhdaidien": "",
+        "matkhau": "aaassaaa1@A",
+        "diachi": [{
+            "tendiachi": "KTX ĐHQG.HCM KHU B, HCM"
+        }]
+
+    },
+    {
+        "userid": 3,
+        "tendangnhap": "thienphuoc",
+        "hovaten": "Nguyễn Thị Thiên Phước",
+        "email": "phuocntt21411@st.uel.edu.vn",
+        "sdt": "0123456333",
+        "gioitinh": "Nữ",
+        "ngaysinh": "18/11/2002",
+        "hinhdaidien": "",
+        "matkhau": "aaabbba1@A",
+        "diachi": [{
+            "tendiachi": "184 Phan Văn Trị, HCM"
+        }]
+
+    }
+]
+
