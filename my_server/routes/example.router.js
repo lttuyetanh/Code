@@ -180,17 +180,25 @@ router.get("/accounts", cors(), async (req, res) => {
 //     .toArray();
 // res.send(result[0]);
 // });
-router.post("/accounts", cors(), async(req, res) => {
-    var crypto = require('crypto');
-    salt = crypto.randomBytes(16).toString('hex');
-    userCollection = database.collection("AccountCustomerData");
-    user=req.body;
-    hash = crypto.pbkdf2Sync(user.password, salt,1000, 64, `sha512`).toString(`hex`);
-    user.password=hash;
-    user.salt=salt
-    await userCollection.insertOne(user)
-    res.send(req.body)
-  })
+// Xử lý route đăng ký
+
+// Xử lý route đăng ký
+
+router.get("/accounts", cors(), async (req, res) => {
+    const customers = await AccountCustomer.find({}).lean();
+    res.send(customers);
+  });
+
+router.post("/accounts", cors(), async (req, res) => {
+    try {
+      const customers = await AccountCustomer.find({}).lean(); // Sử dụng lean() để trả về dữ liệu dưới dạng JavaScript object thay vì document Mongoose
+      res.send(customers);
+    } catch (error) {
+      console.error("Error:", error);
+      res.status(500).json({ err: error.message });
+    }
+  });
+
 
 
 

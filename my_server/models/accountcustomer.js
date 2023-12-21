@@ -8,7 +8,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-const AccountCustomer = new Schema({
+const accountCustomerSchema = new mongoose.Schema({
   Name: {
     type: String,
     required: true,
@@ -27,4 +27,7 @@ const AccountCustomer = new Schema({
   },
 });
 
-module.exports = mongoose.model('AccountCustomer', AccountCustomer);
+const AccountCustomer = mongoose.model('AccountCustomer', accountCustomerSchema);
+
+// Xuất model
+module.exports = AccountCustomer;
