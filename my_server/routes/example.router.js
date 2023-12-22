@@ -1,10 +1,10 @@
 const express = require('express')
 const router = express.Router();
 
-const Order = require('../models/order')
-const User = require('../models/user')
-const Blog = require('../models/blog')
-const AccountCustomer = require('../models/accountcustomer')
+const Order = require('../models/order.js')
+const User = require('../models/user.js')
+const Blog = require('../models/blog.js')
+const AccountCustomer = require('../models/accountcustomer.js')
 const cors = require('cors');
 // 
 router.get('/', (req, res) => {
