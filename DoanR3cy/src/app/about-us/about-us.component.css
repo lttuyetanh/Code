@@ -1,14 +1,14 @@
 
-div{
-    font-family: Inter-Regular;
-}
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    color: var(--color-darkBlue)
-}
+div{ 
+    font-family: Inter-Regular; 
+} 
+ 
+*{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    color: var(--color-darkBlue) 
+} 
 
 .text-center{
     text-align: center;
