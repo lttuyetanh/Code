@@ -1,8 +1,8 @@
 
-div{ 
-    font-family: Inter-Regular; 
-} 
- 
+div{
+    font-family: Inter-Regular;
+}
+
 *{ 
     padding: 0; 
     margin: 0; 
@@ -10,9 +10,9 @@ div{
     color: var(--color-darkBlue) 
 } 
 
-.text-center{
-    text-align: center;
-}
+.text-center{ 
+    text-align: center; 
+} 
 
 .mb-30{
     margin-bottom: 30px;
